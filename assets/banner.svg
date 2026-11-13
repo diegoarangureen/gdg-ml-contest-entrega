@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title description">
+  <title id="title">GDG on Campus UAM ML Contest · MiniRocket + MLP in Numba</title>
+  <desc id="description">Illustrative pipeline: four time-series channels are cleaned, turned into 253 MiniRocket features and classified by a 128-unit MLP distilled from an InceptionTime teacher. Signals and scores are conceptual, not measured outputs.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1b3153"/><stop offset="1" stop-color="#12213a"/></linearGradient>
+    <radialGradient id="light" cx="58%" cy="50%" r="60%"><stop offset="0" stop-color="#2d5d92" stop-opacity=".30"/><stop offset="1" stop-color="#2d5d92" stop-opacity="0"/></radialGradient>
+    <linearGradient id="chip" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#244c77"/><stop offset="1" stop-color="#183656"/></linearGradient>
+    <linearGradient id="win" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#f9ab00"/><stop offset="1" stop-color="#ffdf67"/></linearGradient>
+    <pattern id="lines" width="64" height="64" patternUnits="userSpaceOnUse"><path d="M0 64L64 0" fill="none" stroke="#a8c5ec" stroke-width="1" opacity=".065"/></pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#8fb4df"/></marker>
+  </defs>
+  <rect width="1200" height="300" fill="#16294a"/>
+  <rect width="1200" height="300" fill="none"/>
+  <path d="M0 299H1200" stroke="#ffffff" opacity=".08"/>
+  <g aria-hidden="true"><rect x="75" y="67" width="37" height="7" rx="3.5" fill="#4285f4"/><rect x="127" y="67" width="37" height="7" rx="3.5" fill="#ea4335"/><rect x="179" y="67" width="37" height="7" rx="3.5" fill="#fbbc04"/><rect x="231" y="67" width="37" height="7" rx="3.5" fill="#34a853"/></g>
+  <text x="75" y="116" fill="#a9bdd9" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="1.3">GDG ON CAMPUS · UAM</text>
+  <text x="70" y="190" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="67" font-weight="800" letter-spacing="1">ML CONTEST</text>
+  <text x="75" y="231" fill="#b8c9e2" font-family="Arial, Helvetica, sans-serif" font-size="20">MiniRocket + MLP · Numba · ~0.14 ms per sample</text>
+  <g aria-hidden="true">
+    <polyline points="640.0,92.0 642.5,88.6 645.0,85.5 647.5,83.1 650.0,81.5 652.5,81.0 655.0,81.5 657.5,83.1 660.0,85.5 662.5,88.6 665.0,92.0 667.5,95.4 670.0,98.5 672.5,100.9 675.0,102.5 677.5,103.0 680.0,102.5 682.5,100.9 685.0,98.5 687.5,95.4 690.0,92.0 692.5,88.6 695.0,85.5 697.5,83.1 700.0,81.5 702.5,81.0 705.0,81.5 707.5,83.1 710.0,85.5 712.5,88.6 715.0,92.0 717.5,95.4 720.0,98.5 722.5,100.9 725.0,102.5 727.5,103.0 730.0,102.5 732.5,100.9 735.0,98.5 737.5,95.4 740.0,92.0 742.5,88.6 745.0,85.5 747.5,83.1 750.0,81.5 752.5,81.0 755.0,81.5 757.5,83.1 760.0,85.5 762.5,88.6 765.0,92.0 767.5,95.4 770.0,98.5 772.5,100.9 775.0,102.5 777.5,103.0 780.0,102.5 782.5,100.9 785.0,98.5 787.5,95.4 790.0,92.0" fill="none" stroke="#4285f4" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="640.0,124.4 642.5,122.9 645.0,123.3 647.5,125.7 650.0,129.6 652.5,134.0 655.0,137.7 657.5,139.5 660.0,138.8 662.5,135.5 665.0,130.5 667.5,125.1 670.0,120.9 672.5,119.1 675.0,120.2 677.5,124.1 680.0,129.5 682.5,135.0 685.0,139.1 687.5,140.6 690.0,139.3 692.5,135.5 695.0,130.5 697.5,125.6 700.0,122.3 702.5,121.2 705.0,122.5 707.5,125.7 710.0,129.6 712.5,133.2 715.0,135.6 717.5,136.1 720.0,135.1 722.5,132.8 725.0,130.2 727.5,128.0 730.0,126.6 732.5,126.3 735.0,127.0 737.5,128.4 740.0,129.9 742.5,131.2 745.0,132.0 747.5,132.3 750.0,132.0 752.5,131.2 755.0,130.1 757.5,128.9 760.0,128.0 762.5,127.4 765.0,127.5 767.5,128.4 770.0,129.8 772.5,131.7 775.0,133.4 777.5,134.4 780.0,134.3 782.5,132.8 785.0,130.3 787.5,127.2 790.0,124.4" fill="none" stroke="#ea4335" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="640.0,165.5 642.5,162.8 645.0,166.6 647.5,165.9 650.0,176.5 652.5,170.1 655.0,162.7 657.5,166.3 660.0,163.4 662.5,173.9 665.0,174.1 667.5,164.0 670.0,166.5 672.5,162.2 675.0,169.7 677.5,176.4 680.0,166.4 682.5,167.1 685.0,162.5 687.5,165.1 690.0,176.6 692.5,169.2 695.0,167.9 697.5,164.3 700.0,161.2 702.5,174.4 705.0,171.7 707.5,168.8 710.0,167.1 712.5,159.2 715.0,170.5 717.5,173.2 720.0,169.4 722.5,170.1 725.0,159.5 727.5,165.9 730.0,173.3 732.5,169.7 735.0,172.6 737.5,162.1 740.0,161.9 742.5,172.0 745.0,169.5 747.5,173.8 750.0,166.3 752.5,159.6 755.0,169.6 757.5,168.9 760.0,173.5 762.5,170.9 765.0,159.4 767.5,166.8 770.0,168.1 772.5,171.7 775.0,174.8 777.5,161.6 780.0,164.3 782.5,167.2 785.0,168.9 787.5,176.8 790.0,165.5" fill="none" stroke="#fbbc04" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="640.0,213.7 642.5,212.9 645.0,212.1 647.5,211.3 650.0,210.6 652.5,210.0 655.0,209.5 657.5,209.2 660.0,208.9 662.5,208.8 665.0,208.8 667.5,208.8 670.0,209.0 672.5,209.2 675.0,209.5 677.5,209.8 680.0,210.2 682.5,210.5 685.0,210.7 687.5,210.9 690.0,210.9 692.5,210.9 695.0,210.8 697.5,210.5 700.0,210.2 702.5,209.7 705.0,209.1 707.5,208.4 710.0,207.6 712.5,206.8 715.0,206.0 717.5,205.2 720.0,204.4 722.5,203.6 725.0,202.9 727.5,202.3 730.0,201.8 732.5,201.5 735.0,201.2 737.5,201.1 740.0,201.1 742.5,201.1 745.0,201.3 747.5,201.5 750.0,201.8 752.5,202.2 755.0,202.5 757.5,202.8 760.0,203.0 762.5,203.2 765.0,203.2 767.5,203.2 770.0,203.1 772.5,202.8 775.0,202.5 777.5,202.0 780.0,201.4 782.5,200.7 785.0,199.9 787.5,199.1 790.0,198.3" fill="none" stroke="#34a853" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M800 148H842" stroke="#8fb4df" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="848" y="104" width="118" height="88" rx="12" fill="#1f4269" stroke="#6f9fd0" stroke-width="1.5"/>
+    <text x="907" y="138" text-anchor="middle" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">MiniRocket</text>
+    <text x="907" y="160" text-anchor="middle" fill="#b9d3ec" font-family="Arial, Helvetica, sans-serif" font-size="13">253 features</text>
+    <path d="M970 148H1004" stroke="#8fb4df" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="1008" y="112" width="44" height="72" rx="10" fill="#1f4269" stroke="#6f9fd0" stroke-width="1.5"/>
+    <circle cx="1030" cy="126" r="4.2" fill="#8fb4df"/><circle cx="1030" cy="141" r="4.2" fill="#8fb4df"/><circle cx="1030" cy="156" r="4.2" fill="#8fb4df"/><circle cx="1030" cy="171" r="4.2" fill="#8fb4df"/>
+    <text x="1030" y="203" text-anchor="middle" fill="#b9d3ec" font-family="Arial, Helvetica, sans-serif" font-size="12">MLP 128</text>
+    <path d="M1055 148H1061" stroke="#8fb4df" stroke-width="2"/>
+    <rect x="1065" y="192" width="10" height="26" rx="2" fill="#5d84b6" opacity="0.75"/>
+<rect x="1079" y="200" width="10" height="18" rx="2" fill="#5d84b6" opacity="0.75"/>
+<rect x="1093" y="184" width="10" height="34" rx="2" fill="#5d84b6" opacity="0.75"/>
+<rect x="1107" y="196" width="10" height="22" rx="2" fill="#5d84b6" opacity="0.75"/>
+<rect x="1121" y="203" width="10" height="15" rx="2" fill="#5d84b6" opacity="0.75"/>
+<rect x="1135" y="188" width="10" height="30" rx="2" fill="#5d84b6" opacity="0.75"/>
+<rect x="1149" y="140" width="10" height="78" rx="2" fill="#f9ab00" opacity="1"/>
+<rect x="1163" y="198" width="10" height="20" rx="2" fill="#5d84b6" opacity="0.75"/>
+    <text x="1117" y="238" text-anchor="middle" fill="#b9d3ec" font-family="Arial, Helvetica, sans-serif" font-size="12">8 classes</text>
+    <path d="M907 98V64H1030V106" fill="none" stroke="#f9ab00" stroke-width="1.6" stroke-dasharray="5 5" marker-end="url(#arrow)"/>
+    <text x="968" y="56" text-anchor="middle" fill="#ffd35c" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700">distilled from InceptionTime</text>
+  </g>
+</svg>
