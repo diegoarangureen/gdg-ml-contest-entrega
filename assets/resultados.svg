@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="350" viewBox="0 0 900 350" role="img" aria-labelledby="t d">
+  <title id="t">Resultados de la entrega</title>
+  <desc id="d">Demo oficial: 330 de 400 aciertos, 82,5 por ciento y score 3,488 en 3 ejecuciones. Colab con CPU: 0,140 ms por muestra, unas 428 000 respuestas en 60 s. Score estimado en la evaluación oficial: unos 120. Setup en frío de 15 a 20 s. Profesor InceptionTime: 89,0 por ciento en la demo.</desc>
+  <rect x="1" y="1" width="898" height="348" rx="10" fill="#ffffff" stroke="#c9d6e3" stroke-width="2"/>
+  <path d="M1 11A10 10 0 0 1 11 1H889A10 10 0 0 1 899 11V46H1Z" fill="#0f2a44"/>
+  <text x="34" y="29" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.5">EVALUACIÓN</text>
+  <text x="494" y="29" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.5">RESULTADO</text>
+  <rect x="2" y="56" width="6" height="40" rx="3" fill="#4285f4"/>
+  <text x="34" y="72" fill="#0f2a44" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16.5" font-weight="700">test_demo.npz oficial</text>
+  <text x="34" y="93" fill="#5b7590" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">400 muestras distintas · 3 ejecuciones del harness</text>
+  <text x="494" y="73" fill="#0f2a44" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700">330 / 400 · 82,5 %</text>
+  <text x="494" y="94" fill="#5b7590" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">Score 3,488 · idéntico en las 3 ejecuciones</text>
+  <rect x="2" y="106" width="896" height="60" fill="#f4f7fb"/>
+  <rect x="2" y="116" width="6" height="40" rx="3" fill="#34a853"/>
+  <path d="M2 106H898" stroke="#e1e8f0" stroke-width="1"/>
+  <text x="34" y="132" fill="#0f2a44" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16.5" font-weight="700">Colab con CPU · 1 hilo · 3 × 60 s</text>
+  <text x="34" y="153" fill="#5b7590" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">Latencia de predict con el harness oficial</text>
+  <text x="494" y="133" fill="#0f2a44" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700">0,140 ms por muestra</text>
+  <text x="494" y="154" fill="#5b7590" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">≈ 428 000 respuestas en 60 s</text>
+  <rect x="2" y="176" width="6" height="40" rx="3" fill="#f29900"/>
+  <path d="M2 166H898" stroke="#e1e8f0" stroke-width="1"/>
+  <text x="34" y="192" fill="#0f2a44" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16.5" font-weight="700">Score estimado en la evaluación oficial</text>
+  <text x="34" y="213" fill="#5b7590" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">√(N/8) · gm_f con la validación corrompida</text>
+  <text x="494" y="193" fill="#0f2a44" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700">≈ 120</text>
+  <text x="494" y="214" fill="#5b7590" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">≈ 114 con la gm_f de la demo</text>
+  <rect x="2" y="226" width="896" height="60" fill="#f4f7fb"/>
+  <rect x="2" y="236" width="6" height="40" rx="3" fill="#ea4335"/>
+  <path d="M2 226H898" stroke="#e1e8f0" stroke-width="1"/>
+  <text x="34" y="252" fill="#0f2a44" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16.5" font-weight="700">Setup en frío</text>
+  <text x="34" y="273" fill="#5b7590" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">Model() compila Numba al arrancar</text>
+  <text x="494" y="253" fill="#0f2a44" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700">15–20 s</text>
+  <text x="494" y="274" fill="#5b7590" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">Límite del concurso: 120 s</text>
+  <rect x="2" y="296" width="6" height="40" rx="3" fill="#7b61c9"/>
+  <path d="M2 286H898" stroke="#e1e8f0" stroke-width="1"/>
+  <text x="34" y="312" fill="#0f2a44" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16.5" font-weight="700">Profesor InceptionTime (no se entrega)</text>
+  <text x="34" y="333" fill="#5b7590" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">5 folds × 5 semillas, entrenado con GPU en Kaggle</text>
+  <text x="494" y="313" fill="#0f2a44" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700">89,0 % en la demo</text>
+  <text x="494" y="334" fill="#5b7590" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">Solo etiqueta datos: ~100 veces más lento</text>
+  <path d="M470 46V348" stroke="#e1e8f0" stroke-width="1"/>
+</svg>

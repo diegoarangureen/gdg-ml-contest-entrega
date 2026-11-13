@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="330" viewBox="0 0 900 330" role="img" aria-labelledby="t d">
+  <title id="t">Ficheros de la entrega</title>
+  <desc id="d">model.py, motor_multi.py, modelo_numba.npz, requirements.txt y verificar_entrega_colab.ipynb, con su función.</desc>
+  <rect x="1" y="1" width="898" height="328" rx="10" fill="#ffffff" stroke="#c9d6e3" stroke-width="2"/>
+  <path d="M1 11A10 10 0 0 1 11 1H889A10 10 0 0 1 899 11V46H1Z" fill="#0f2a44"/>
+  <text x="34" y="29" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.5">FICHERO</text>
+  <text x="494" y="29" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.5">FUNCIÓN</text>
+  <rect x="2" y="56" width="6" height="36" rx="3" fill="#4285f4"/>
+  <text x="34" y="72" fill="#0f2a44" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16.5" font-weight="700">model.py</text>
+  <text x="34" y="93" fill="#5b7590" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">Lo que carga el harness</text>
+  <text x="494" y="73" fill="#0f2a44" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700">class Model</text>
+  <text x="494" y="94" fill="#5b7590" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">Carga los pesos · predict(x) → clase 0–7</text>
+  <rect x="2" y="102" width="896" height="56" fill="#f4f7fb"/>
+  <rect x="2" y="112" width="6" height="36" rx="3" fill="#34a853"/>
+  <path d="M2 102H898" stroke="#e1e8f0" stroke-width="1"/>
+  <text x="34" y="128" fill="#0f2a44" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16.5" font-weight="700">motor_multi.py</text>
+  <text x="34" y="149" fill="#5b7590" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">Motor de inferencia en Numba</text>
+  <text x="494" y="129" fill="#0f2a44" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700">Limpieza · MiniRocket · MLP</text>
+  <text x="494" y="150" fill="#5b7590" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">Una sola llamada compilada por muestra</text>
+  <rect x="2" y="168" width="6" height="36" rx="3" fill="#f29900"/>
+  <path d="M2 158H898" stroke="#e1e8f0" stroke-width="1"/>
+  <text x="34" y="184" fill="#0f2a44" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16.5" font-weight="700">modelo_numba.npz</text>
+  <text x="34" y="205" fill="#5b7590" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">Pesos entrenados (151 KB)</text>
+  <text x="494" y="185" fill="#0f2a44" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700">253 → 128 → 8</text>
+  <text x="494" y="206" fill="#5b7590" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">Ruta relativa a model.py</text>
+  <rect x="2" y="214" width="896" height="56" fill="#f4f7fb"/>
+  <rect x="2" y="224" width="6" height="36" rx="3" fill="#ea4335"/>
+  <path d="M2 214H898" stroke="#e1e8f0" stroke-width="1"/>
+  <text x="34" y="240" fill="#0f2a44" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16.5" font-weight="700">requirements.txt</text>
+  <text x="34" y="261" fill="#5b7590" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">Dependencias de inferencia</text>
+  <text x="494" y="241" fill="#0f2a44" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700">numpy · numba</text>
+  <text x="494" y="262" fill="#5b7590" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">Sin PyTorch al predecir</text>
+  <rect x="2" y="280" width="6" height="36" rx="3" fill="#7b61c9"/>
+  <path d="M2 270H898" stroke="#e1e8f0" stroke-width="1"/>
+  <text x="34" y="296" fill="#0f2a44" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16.5" font-weight="700">verificar_entrega_colab.ipynb</text>
+  <text x="34" y="317" fill="#5b7590" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">Comprobación en Colab, con resultados</text>
+  <text x="494" y="297" fill="#0f2a44" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700">Harness · 3 ejecuciones</text>
+  <text x="494" y="318" fill="#5b7590" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">Demo, latencia y checklist de reglas</text>
+  <path d="M470 46V328" stroke="#e1e8f0" stroke-width="1"/>
+</svg>

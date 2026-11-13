@@ -27,12 +27,7 @@ Al predecir no hace falta PyTorch ni internet, y el modelo nunca se abstiene.
 
 ## Resultados
 
-| Evaluación | Resultado |
-|---|---|
-| `test_demo.npz` oficial (400 muestras, 3 ejecuciones del harness) | **330 / 400 · 82,5 %** · score **3,488** |
-| Colab con CPU, 1 hilo, 3 × 60 s de `predict` | **0,140 ms por muestra** · ≈ 428 000 respuestas en 60 s |
-| Score estimado en la evaluación oficial | **≈ 120** (≈ 114 con la gm_f de la demo) |
-| Setup en frío (`Model()` compila Numba) | ~15–20 s (límite: 120 s) |
+![Resultados: 330 de 400 aciertos en la demo (82,5 %, score 3,488), 0,140 ms por muestra en Colab y score estimado de unos 120](assets/resultados.svg)
 
 El score estimado es `√(N/8)·gm_f`, con `N = 60 s / latencia media` y la gm_f medida en una validación corrompida de 57 000 filas (0,520).
 
@@ -45,13 +40,7 @@ El score estimado es `√(N/8)·gm_f`, con `N = 60 s / latencia media` y la gm_f
 
 ## Ficheros
 
-| Fichero | Para qué sirve |
-|---|---|
-| `model.py` | Clase `Model`: carga los pesos en `__init__`; `predict(x)` devuelve una clase de 0 a 7 |
-| `motor_multi.py` | Motor en Numba: limpieza, MiniRocket y MLP |
-| `modelo_numba.npz` | Pesos entrenados (151 KB), con ruta relativa a `model.py` |
-| `requirements.txt` | `numpy` y `numba` |
-| `verificar_entrega_colab.ipynb` | Comprobación en Colab con el harness oficial, guardada con sus resultados |
+![Ficheros de la entrega: model.py, motor_multi.py, modelo_numba.npz, requirements.txt y el notebook de verificación](assets/ficheros.svg)
 
 ## Comprobarlo
 
