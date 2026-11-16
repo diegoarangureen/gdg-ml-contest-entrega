@@ -60,6 +60,8 @@ Debe dar 330 aciertos de 400 y score 3,488. También se puede abrir el [notebook
 
 ## Posibles mejoras y líneas futuras
 
+Después del plazo seguimos probando dos de estas ideas: sesgos por clase sin etiquetas y un alumno más rápido con 150 rasgos. Los resultados, los modelos y un notebook para compararlos en Colab están en [`mejoras_y_trabajo_futuro/`](mejoras_y_trabajo_futuro/). No forman parte de la entrega evaluada.
+
 - **Corregir los priors sin etiquetas:** ajustar un desplazamiento de los logits por clase, sobre todo en la 6 y la 7, con datos tipo test sin etiquetar. Con la validación de train no aportaba nada, porque el desequilibrio solo aparece en datos tipo test.
 - **Superar el techo de MiniRocket:** el alumno se queda en gm_f ≈ 0,52 y el profesor llega a 0,72. Una CNN 1D algo mayor (~50 k parámetros) servida con ONNX Runtime, o un alumno híbrido MiniRocket + CNN pequeña, podría captar más del profesor con una latencia parecida.
 - **Más características a mano:** en el análisis, la asimetría temporal separaba las clases 4 y 5, la cuadratura de fase entre los canales 0 y 1 marcaba la clase 1 y la modulación de amplitud, la 3. Añadirlas al alumno cuesta poco en Numba.
